@@ -5,6 +5,14 @@ fn main() {
     let n4 = n1 + &n2 + &n3;  // n2 & n3 reference is passed
 
 
-    //About Electrical
+    //About Electrical/Electronic
+    println!("\nThe {} is informed by the aspiration to train electrical?electronic engineeering professionals in the ares of design, building and maintenance electrical control systems", n4);
+
+    let w1 = "Computer".to_string();
+    let w2 = "Computer".to_string();
+    let w3 = w1 + &w2; // w2 reference is passed
+    println!();
+    println!("{} is aimed at developing competent, creative, innovative, entreppreneurial and ethically minded persons, capable of creating value in the diverse fields of Computer science.", w3);
+
 
 }
